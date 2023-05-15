@@ -1,0 +1,33 @@
+Truyền tham trị và truyền tham chiếu là hai cách khác nhau để truyền thông tin giữa các phương thức trong Java.
+
+Truyền tham trị:
+Khi truyền tham trị, giá trị của biến được sao chép và truyền vào phương thức. Các thay đổi được thực hiện trên tham số trong phương thức 
+không ảnh hưởng đến giá trị của biến gốc.
+
+public static void main(String[] args) {
+  int x = 10;
+  changeValue(x);
+  System.out.println(x); // kết quả là 10
+}
+
+public static void changeValue(int a) {
+  a = 20;
+}
+
+Truyền tham chiếu:
+Khi truyền tham chiếu, một con trỏ [tham chiếu/địa chỉ] được truyền vào phương thức thay vì giá trị của biến. 
+Các thay đổi được thực hiện trên tham số trong phương thức ảnh hưởng đến giá trị của biến gốc.
+
+public static void main(String[] args) {
+  int[] arr = {1, 2, 3};
+  changeArray(arr);
+  System.out.println(Arrays.toString(arr)); // kết quả là [4, 5, 6]
+}
+
+public static void changeArray(int[] arr) {
+  for (int i = 0; i < arr.length; i++) {
+    arr[i] += 3;
+  }
+}
+
+

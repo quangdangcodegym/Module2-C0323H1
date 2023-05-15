@@ -40,13 +40,13 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.JavaBasic">
-    <configuration name="JavaBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.JavaBasic" />
+  <component name="RunManager" selected="Application.Excersice">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.search.BinarySearch" />
       <module name="hellojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.*" />
+          <option name="PATTERN" value="com.codegym.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,12 +54,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Product" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.Product" />
+    <configuration name="Excersice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.baitap.Excersice" />
       <module name="hellojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.*" />
+          <option name="PATTERN" value="com.codegym.baitap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.search.SearchMain" />
+      <module name="hellojava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.sort.Sort" />
+      <module name="hellojava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.baitap.Test" />
+      <module name="hellojava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.baitap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,8 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JavaBasic" />
-        <item itemvalue="Application.Product" />
+        <item itemvalue="Application.Excersice" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.SearchMain" />
+        <item itemvalue="Application.Sort" />
       </list>
     </recent_temporary>
   </component>
@@ -83,7 +125,12 @@
       <option name="presentableId" value="Default" />
       <updated>1683596615196</updated>
       <workItem from="1683596616861" duration="5309000" />
-      <workItem from="1683687880314" duration="6499000" />
+      <workItem from="1683687880314" duration="7462000" />
+      <workItem from="1683768919160" duration="4525000" />
+      <workItem from="1683787092460" duration="74000" />
+      <workItem from="1683819639151" duration="14000" />
+      <workItem from="1683854688962" duration="3429000" />
+      <workItem from="1684114488732" duration="8656000" />
     </task>
     <servers />
   </component>
@@ -100,5 +147,26 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/codegym/baitap/Excersice.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/codegym/baitap/Excersice.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/codegym/baitap/Excersice.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

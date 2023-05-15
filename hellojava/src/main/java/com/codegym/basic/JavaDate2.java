@@ -1,8 +1,8 @@
-package com.codegym;
+package com.codegym.basic;
 
 import java.util.Scanner;
 
-public class JavaBasic {
+public class JavaDate2 {
     public static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
 
