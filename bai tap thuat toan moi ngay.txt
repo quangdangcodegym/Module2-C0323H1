@@ -1,0 +1,57 @@
+Bài 1: Tính tổng các giá trị lớn hơn giá trị đứng liền trước nó trong mảng 1 chiều các số thực
+Bài 2: Tính trung bình cộng các số dương trong mảng 1 chiều các số thực
+Bài 3: Đưa các số chia hết cho 3 về đầu mảng
+Bài 4: Đảo ngược mảng ban đầu
+Bài 5: Hãy liệt kê các số trong mảng 1 chiều các số thực thuộc đoạn [x, y] cho trước
+Bài 6: Hãy liệt kê các giá trị trong mảng mà thỏa điều kiện lớn hơn giá trị tuyệt đối của giá trị đứng liền sau nó
+Bài 7: Hãy liệt kê các vị trí mà giá trị tại đó là số chính phương trong mảng 1 chiều các số nguyên
+Bài 8: Đếm số dương chia hết cho 7 trong mảng
+Bài 9: Đếm số nguyên tố trong mảng
+Bài 10: Hãy xác định số lượng phần tử kề nhau mà cả 2 đều chẵn
+Bài 11: Kiểm tra mảng có đối xứng không? Có trả về 1, không có trả về 0
+Bài 12: Kiểm tra mảng có tăng dần hay không
+Bài 13: Hãy cho biết tất cả các phần tử trong mảng a có nằm trong mảng b không
+Bài 14: Kiểm tra ma trận 2 chiều có toàn dương hay không
+Bài 15: Kiểm tra một cột ma trận có giảm dần hay không
+Bài 16: Kiểm tra ma trận có tồn tại số lẻ hay không
+Bài 17: Liệt kê các dòng giảm dần trong ma trận
+Bài 18: Tìm số chẵn đầu tiên trong ma trận
+Bài 19: Tìm số chẵn lớn nhất trong ma trận
+Bài 20: Liệt kê các dòng có tổng lớn nhất
+
+--- Bài tập module 2
+Bài 1: Hãy liệt kê các giá trị có toàn chữ số lẻ trong mảng 1 chiều các số nguyên
+Bài 2: Hãy liệt kê các vị trí mà giá trị tại đó là số nguyên tố 
+trong mảng 1 chiều các số nguyên
+Bài 3: Đếm số lượng giá trị tận cùng bằng 5 trong mảng
+
+Bài 4: Kiểm tra mảng có giá trị 0 hay không? Có trả về 1, không có trả về 0
+Bài 5: Kiểm tra mảng có giảm dần hay không
+Bài 6: Hãy cho biết tất cả các phần tử trong mảng a có nằm trong mảng b không
+
+[Bài tập sắp xếp khi nào học tới hãy làm]
+Bài 7: Sắp xếp số dương tăng dần, các số âm giữ nguyên vị trí
+Bài 8: Sắp xếp lẻ tăng dần nhưng giá trị khác giữ nguyên vị trí
+Bài 9: Sắp xếp số dương tăng dần, âm giảm dần. Vị trí tương đối không thay đổi
+
+Bài 10: Thêm 1 phần tử x vào mảng tại vị trí k
+Bài 11: Thêm x vào trong mảng tăng nhưng vẫn giữ nguyên tính tăng của mảng
+
+Bài 12: Xóa tất cả các số âm trong mảng
+Bài 13: Xóa tất cả các số chẵn trong mảng
+Bài 14: Xóa tất cả các phần tử trùng nhau trong mảng và chỉ giữ lại duy nhất 1 phần tử
+
+Bài 15: Hãy tất cả các số 1 về đầu mảng
+
+[5 bài này khi nào học xong Java collection hẵn làm]
+Bài 16:
+https://www.hackerrank.com/challenges/java-2d-array/problem?isFullScreen=true
+Bài 17:
+https://www.hackerrank.com/challenges/java-loops-i/problem?isFullScreen=true
+Bài 18:
+https://www.hackerrank.com/challenges/java-substring/problem?isFullScreen=true
+Bài 19:
+https://www.hackerrank.com/challenges/java-list/problem?isFullScreen=true
+Bài 20
+https://www.hackerrank.com/challenges/java-stack/problem?isFullScreen=true
+
