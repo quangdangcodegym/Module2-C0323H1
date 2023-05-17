@@ -1,4 +1,5 @@
-package com.codegym.oop;
+package com.codegym.oop.buoi1;
+
 
 import java.util.Scanner;
 

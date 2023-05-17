@@ -40,9 +40,14 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.JDKMain">
-    <configuration name="Excersice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.baitap.Excersice" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.codegym.oop.staticoop" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.codegym.oop.staticoop.Student">
+    <configuration name="FixExersizez" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.baitap.FixExersizez" />
       <module name="hellojava" />
       <extension name="coverage">
         <pattern>
@@ -55,11 +60,11 @@
       </method>
     </configuration>
     <configuration name="JDKMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.oop.JDKMain" />
+      <option name="MAIN_CLASS_NAME" value="com.codegym.oop.buoi1.JDKMain" />
       <module name="hellojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.oop.*" />
+          <option name="PATTERN" value="com.codegym.oop.buoi1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOPMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.oop.OOPMain" />
+    <configuration name="StopWatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.oop.excersise.StopWatch" />
       <module name="hellojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.oop.*" />
+          <option name="PATTERN" value="com.codegym.oop.excersise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,11 +86,11 @@
       </method>
     </configuration>
     <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.oop.Student" />
+      <option name="MAIN_CLASS_NAME" value="com.codegym.oop.buoi1.Student" />
       <module name="hellojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.oop.*" />
+          <option name="PATTERN" value="com.codegym.oop.buoi1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.baitap.Test" />
+    <configuration name="com.codegym.oop.staticoop.Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.oop.staticoop.Student" />
       <module name="hellojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.baitap.*" />
+          <option name="PATTERN" value="com.codegym.oop.staticoop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.codegym.oop.staticoop.Student" />
+        <item itemvalue="Application.StopWatch" />
+        <item itemvalue="Application.FixExersizez" />
         <item itemvalue="Application.JDKMain" />
         <item itemvalue="Application.Student" />
-        <item itemvalue="Application.OOPMain" />
-        <item itemvalue="Application.Excersice" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +137,8 @@
       <workItem from="1683854688962" duration="3429000" />
       <workItem from="1684114488732" duration="8960000" />
       <workItem from="1684158537552" duration="138000" />
-      <workItem from="1684200241224" duration="6050000" />
+      <workItem from="1684200241224" duration="7200000" />
+      <workItem from="1684287729252" duration="7545000" />
     </task>
     <servers />
   </component>

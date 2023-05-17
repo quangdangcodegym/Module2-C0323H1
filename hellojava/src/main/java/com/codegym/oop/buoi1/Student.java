@@ -1,8 +1,8 @@
-package com.codegym.oop;
+package com.codegym.oop.buoi1;
 
 public class Student {
     // thuộc tính
-    public int id;      // biến instane/ biến của đối tượng
+    public int id;      // biến instance/ biến của đối tượng
     public String name;     //null
     public int age;         //0
     public String phone;    // null
@@ -38,7 +38,7 @@ public class Student {
         return this.phone.substring(0, 7) + "xxx";
     }
     public static void main(String[] args) {
-        Student s1 = new Student();
+        Student s1 = new Student();         // instane
         System.out.printf("ID: %s Name: %s AGE %s PHONE %s", s1.id, s1.name, s1.age, s1.phone);
 
 
