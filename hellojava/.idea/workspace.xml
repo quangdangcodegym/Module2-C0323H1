@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,7 +46,7 @@
       <recent name="com.codegym.oop.staticoop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.codegym.oop.staticoop.Student">
+  <component name="RunManager" selected="Application.PointMain">
     <configuration name="FixExersizez" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codegym.baitap.FixExersizez" />
       <module name="hellojava" />
@@ -59,12 +60,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDKMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.oop.buoi1.JDKMain" />
+    <configuration name="PointMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.inheritance.point.PointMain" />
       <module name="hellojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.oop.buoi1.*" />
+          <option name="PATTERN" value="com.codegym.inheritance.point.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.inheritance.basic.ShapeMain" />
+      <module name="hellojava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.inheritance.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,19 +92,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.codegym.oop.excersise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.oop.buoi1.Student" />
-      <module name="hellojava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codegym.oop.buoi1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PointMain" />
+        <item itemvalue="Application.ShapeMain" />
         <item itemvalue="Application.com.codegym.oop.staticoop.Student" />
         <item itemvalue="Application.StopWatch" />
         <item itemvalue="Application.FixExersizez" />
-        <item itemvalue="Application.JDKMain" />
-        <item itemvalue="Application.Student" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +139,10 @@
       <workItem from="1684114488732" duration="8960000" />
       <workItem from="1684158537552" duration="138000" />
       <workItem from="1684200241224" duration="7200000" />
-      <workItem from="1684287729252" duration="7545000" />
+      <workItem from="1684287729252" duration="7591000" />
+      <workItem from="1684460699715" duration="5055000" />
+      <workItem from="1684548384991" duration="276000" />
+      <workItem from="1684721086266" duration="10385000" />
     </task>
     <servers />
   </component>
