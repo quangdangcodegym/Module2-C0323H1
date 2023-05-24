@@ -46,13 +46,13 @@
       <recent name="com.codegym.oop.staticoop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PointMain">
-    <configuration name="FixExersizez" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.baitap.FixExersizez" />
+  <component name="RunManager" selected="Application.ManagerOfficer">
+    <configuration name="ManagerOfficer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.oop_ex1.ManagerOfficer" />
       <module name="hellojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.baitap.*" />
+          <option name="PATTERN" value="com.codegym.oop_ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.inheritance.basic.ShapeMain" />
+    <configuration name="Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.comparable.Rectangle" />
       <module name="hellojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.inheritance.basic.*" />
+          <option name="PATTERN" value="com.codegym.comparable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StopWatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.oop.excersise.StopWatch" />
+    <configuration name="ShapeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.inheritance.basic.ShapeMain" />
       <module name="hellojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.oop.excersise.*" />
+          <option name="PATTERN" value="com.codegym.inheritance.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ManagerOfficer" />
+        <item itemvalue="Application.Rectangle" />
         <item itemvalue="Application.PointMain" />
         <item itemvalue="Application.ShapeMain" />
         <item itemvalue="Application.com.codegym.oop.staticoop.Student" />
-        <item itemvalue="Application.StopWatch" />
-        <item itemvalue="Application.FixExersizez" />
       </list>
     </recent_temporary>
   </component>
@@ -143,6 +143,8 @@
       <workItem from="1684460699715" duration="5055000" />
       <workItem from="1684548384991" duration="276000" />
       <workItem from="1684721086266" duration="10385000" />
+      <workItem from="1684761765197" duration="8000" />
+      <workItem from="1684910604570" duration="7157000" />
     </task>
     <servers />
   </component>
