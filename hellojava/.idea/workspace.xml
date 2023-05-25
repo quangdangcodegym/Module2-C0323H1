@@ -32,19 +32,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.45911214"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.codegym.oop.staticoop" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
   </component>
   <component name="RunManager" selected="Application.ManagerOfficer">
     <configuration name="ManagerOfficer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -86,28 +94,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.inheritance.basic.ShapeMain" />
+    <configuration name="SimpleCalculatorTest.testAdd0And0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hellojava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codegym.inheritance.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleCalculatorTest" />
+      <option name="METHOD_NAME" value="testAdd0And0" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.codegym.oop.staticoop.Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.oop.staticoop.Student" />
+    <configuration name="SimpleCalculatorTest.testAdd0And0" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hellojava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codegym.oop.staticoop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleCalculatorTest" />
+      <option name="METHOD_NAME" value="testAdd0And0" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,10 +119,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ManagerOfficer" />
+        <item itemvalue="JUnit.SimpleCalculatorTest.testAdd0And0" />
+        <item itemvalue="TestNG.SimpleCalculatorTest.testAdd0And0" />
         <item itemvalue="Application.Rectangle" />
         <item itemvalue="Application.PointMain" />
-        <item itemvalue="Application.ShapeMain" />
-        <item itemvalue="Application.com.codegym.oop.staticoop.Student" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +148,8 @@
       <workItem from="1684548384991" duration="276000" />
       <workItem from="1684721086266" duration="10385000" />
       <workItem from="1684761765197" duration="8000" />
-      <workItem from="1684910604570" duration="7157000" />
+      <workItem from="1684910604570" duration="7957000" />
+      <workItem from="1684978581752" duration="5597000" />
     </task>
     <servers />
   </component>
@@ -161,5 +166,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/SimpleCalculatorTest.java</url>
+          <line>11</line>
+          <properties class="SimpleCalculatorTest" method="testAdd0And0">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

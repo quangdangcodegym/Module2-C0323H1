@@ -15,6 +15,14 @@ public class Engineer extends Officer{
 
     }
 
+    public String getBranch() {
+        return branch;
+    }
+
+    public void setBranch(String branch) {
+        this.branch = branch;
+    }
+
     @Override
     public String toString() {
         return "Engineer{" +

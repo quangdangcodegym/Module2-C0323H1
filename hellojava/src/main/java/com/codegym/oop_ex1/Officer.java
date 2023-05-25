@@ -26,6 +26,7 @@ public class Officer {
         this.age = age;
         this.gender = gender;
         this.address = address;
+        this.id = id;
     }
 
     public Officer() {
