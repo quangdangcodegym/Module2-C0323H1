@@ -14,12 +14,13 @@ public class CollectionBuoi1 {
          sets1.add(1);
          sets1.add(-5);
 
+         // vì sao ko dùng fon int cho SET được: vì ko có phương thức sets1.get(i)
          for (Integer item : sets1) {
-         System.out.println(item);
+            System.out.println(item);
          }
 
          // dùng treeset thì: danh sách được sắp xếp và không trùng lặp
-         Set<Integer> sets1 = new TreeSet<>();
+         Set<Integer> sets1 = new TreeSet<>();      //new HashSet
          sets1.add(5);
          sets1.add(7);
          sets1.add(5);       // trung lap roi
@@ -60,10 +61,22 @@ public class CollectionBuoi1 {
          ds.add("Minh");
          ds.add("Hung");
          ds.add("Quang");
+         System.out.println("Duyet bang for :");
+         for (String item : ds) {
+         System.out.println(item);
+         }
+         System.out.println("Duyet bang for i");
          for (int i = 0; i < ds.size(); i++) {
          System.out.println(ds.get(i));
          }
+
          **/
+
+
+
+
+
+
 
         List<String> ds = new ArrayList<>();
         ds.add("Quang");
@@ -79,6 +92,9 @@ public class CollectionBuoi1 {
         set1.add("Sinh");
 
         ds.addAll(set1);
+
+
+        List<String> ds5 = new LinkedList<>();
 
 
     }

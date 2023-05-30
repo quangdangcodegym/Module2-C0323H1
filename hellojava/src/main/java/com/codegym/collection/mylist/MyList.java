@@ -34,10 +34,24 @@ public class MyList<E> {
     }
 
     public void remove(int index) {
-
+        if(index < 0 || index >= size){
+            throw new RuntimeException();
+        }
+        for(int i = index; i < size - 1; i++){
+            elements[i] = elements[i+1];
+        }
+        elements[size - 1] = null;
+        size--;
     }
 
     public void add(int index, E obj) {
-
+        if(size == elements.length) {
+            ensureCapa();
+        }
+        for(int i = size-1; i >= index; i--){
+            elements[i+1] = elements[i];
+        }
+        elements[index] = obj;
+        size++;
     }
 }
