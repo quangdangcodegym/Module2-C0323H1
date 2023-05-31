@@ -54,13 +54,26 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.CollectionBuoi1">
+  <component name="RunManager" selected="Application.MyStack">
     <configuration name="CollectionBuoi1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codegym.collection.basic.CollectionBuoi1" />
       <module name="hellojava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.codegym.collection.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IteratorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.stack_queue.IteratorMain" />
+      <module name="hellojava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.stack_queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.comparable.Rectangle" />
+    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.stack_queue.MyStack" />
       <module name="hellojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.comparable.*" />
+          <option name="PATTERN" value="com.codegym.stack_queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,25 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleCalculatorTest.testAdd0And0" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="hellojava" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SimpleCalculatorTest" />
-      <option name="METHOD_NAME" value="testAdd0And0" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyStack" />
+        <item itemvalue="Application.IteratorMain" />
         <item itemvalue="Application.CollectionBuoi1" />
         <item itemvalue="Application.ManagerOfficer" />
         <item itemvalue="JUnit.SimpleCalculatorTest.testAdd0And0" />
-        <item itemvalue="TestNG.SimpleCalculatorTest.testAdd0And0" />
-        <item itemvalue="Application.Rectangle" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +153,7 @@
       <workItem from="1684978581752" duration="7081000" />
       <workItem from="1685324598845" duration="5215000" />
       <workItem from="1685410757291" duration="4879000" />
+      <workItem from="1685495433496" duration="6277000" />
     </task>
     <servers />
   </component>
