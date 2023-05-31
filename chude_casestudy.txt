@@ -1,0 +1,12 @@
+Quản lý rap chiếu phim
+	+ Đặt vé: online, offline, kiểm tra ghế ngồi đã đặt trước trong phòng
+	+ Quản lý suất chiếu: kiểm tra lịch chiếu của phòng đó có hợp lệ không
+Quản lý thư viện
+	+ Thuê sách, thuê được mấy cuốn, đọc cọc, hết hạn trả thì răng, tiền phạt thì sao
+	+ Gần tới hạn trả thì gửi thông báo gần tới hạn
+	+ Số lượng sách khi được thuê thì như thế nào?
+Quản lý khách sạn
+	+ Hiển thị phòng còn trống
+	+ Hiển thị phòng đã đặt
+	+ Khi đặt thì kiểm tra ngày giờ đặt còn trống không
+Quản lý nhập xuất sản phẩm
