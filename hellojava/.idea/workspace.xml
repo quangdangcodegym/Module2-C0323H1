@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1f00377-33af-4d6b-ba6c-38e6fce700e1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../casetemplate/data/product.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../casetemplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../casetemplate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casetemplate/src/main/java/com/codegym/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../casetemplate/src/main/java/com/codegym/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casetemplate/src/main/java/com/codegym/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../casetemplate/src/main/java/com/codegym/ProductManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/CODEGYM/CODEGYM/Module2/C0223G1/HelloJava",
+    "last_opened_file_path": "D:/CODEGYM/CODEGYM/Module2/C0323H1/casetemplate",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
@@ -57,13 +60,13 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileMain">
-    <configuration name="CollectionBuoi1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.collection.basic.CollectionBuoi1" />
+  <component name="RunManager" selected="Application.ExIO">
+    <configuration name="ExIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.file_io.ExIO" />
       <module name="hellojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.collection.basic.*" />
+          <option name="PATTERN" value="com.codegym.file_io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExIO" />
         <item itemvalue="Application.FileMain" />
         <item itemvalue="Application.TryCatchMain" />
         <item itemvalue="Application.MyStack" />
         <item itemvalue="Application.IteratorMain" />
-        <item itemvalue="Application.CollectionBuoi1" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +165,8 @@
       <workItem from="1685495433496" duration="6442000" />
       <workItem from="1685523588971" duration="120000" />
       <workItem from="1685602928828" duration="6213000" />
-      <workItem from="1685929842574" duration="4026000" />
+      <workItem from="1685929842574" duration="5180000" />
+      <workItem from="1685955540293" duration="3845000" />
     </task>
     <servers />
   </component>

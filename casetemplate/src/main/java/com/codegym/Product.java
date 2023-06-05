@@ -1,5 +1,6 @@
 package com.codegym;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Product {
@@ -59,5 +60,12 @@ public class Product {
 
     public void setCreateAt(Date createAt) {
         this.createAt = createAt;
+    }
+
+    @Override
+    public String toString() {
+        //5284,Iphone XXX,Dep lam,23000.0,2023-06-05 17:30:25
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+        return String.format("%s,%s,%s,%s,%s\n", this.id, this.name, this.description, this.price, simpleDateFormat.format(this.createAt) );
     }
 }

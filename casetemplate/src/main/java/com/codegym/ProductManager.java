@@ -1,5 +1,10 @@
 package com.codegym;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -13,7 +18,7 @@ public class ProductManager {
 
     public ProductManager() {
         //id, String name, String description, String price, Date createAt
-
+        /**
         try {
             products = new ArrayList<>();
             products.add(new Product(System.currentTimeMillis()%10000, "Iphone X", "Dep lam", 23000, new Date()));
@@ -24,6 +29,30 @@ public class ProductManager {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+         **/
+
+        products = new ArrayList<>();
+        // // cho nay can refactor: ham doc file
+        try {
+            FileReader fileReader = new FileReader("D:\\CODEGYM\\CODEGYM\\Module2\\C0323H1\\casetemplate\\data\\product.txt");
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+            String line = null;
+            while ((line = bufferedReader.readLine()) != null) {
+                //5284,Iphone X,Dep lam,23000.0,Mon Jun 05 16:55:35 ICT 2023
+                String[] items = line.split(",");
+                long idProduct = Long.parseLong(items[0]);
+                float price = Float.parseFloat(items[3]);
+                // cho nay can refactor
+                SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+                Date date =  simpleDateFormat.parse(items[4]);
+
+                Product p = new Product(idProduct, items[1], items[2], price, date);
+                products.add(p);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
 
     }
 
@@ -71,21 +100,54 @@ public class ProductManager {
     }
 
     private void deleteProductView() {
-        showProducts(products);
+        List<Product> productList = new ArrayList<>();
+        // // cho nay can refactor: ham doc file
+        try {
+            FileReader fileReader = new FileReader("D:\\CODEGYM\\CODEGYM\\Module2\\C0323H1\\casetemplate\\data\\product.txt");
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+            String line = null;
+            while ((line = bufferedReader.readLine()) != null) {
+                //5284,Iphone X,Dep lam,23000.0,Mon Jun 05 16:55:35 ICT 2023
+                String[] items = line.split(",");
+                long idProduct = Long.parseLong(items[0]);
+                float price = Float.parseFloat(items[3]);
+                // cho nay can refactor
+                SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+                Date date =  simpleDateFormat.parse(items[4]);
+
+                Product p = new Product(idProduct, items[1], items[2], price, date);
+                productList.add(p);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        showProducts(productList);
         System.out.println("Nhập ID cần xóa: ");
         long idProductDelete = Long.parseLong(scanner.nextLine());
-        Product productDelete = findProductById(products, idProductDelete);
+
+
+        Product productDelete = findProductById(productList, idProductDelete);
 
         if (productDelete == null) {
             System.out.println("Sản phẩm không tồn tại:");
         }else{
-            for (int i = 0; i < products.size(); i++) {
-                if (products.get(i).getId() == idProductDelete) {
-                    products.remove(i);
+            for (int i = 0; i < productList.size(); i++) {
+                if (productList.get(i).getId() == idProductDelete) {
+                    productList.remove(i);
                     break;
                 }
             }
-            showProducts(products);
+            try {
+                FileWriter fileWriter = new FileWriter("D:\\CODEGYM\\CODEGYM\\Module2\\C0323H1\\casetemplate\\data\\product.txt");
+                BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+                for (Product p : productList) {
+                    bufferedWriter.write(p.toString());
+                }
+                bufferedWriter.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            showProducts(productList);
         }
     }
 
@@ -93,6 +155,7 @@ public class ProductManager {
         showProducts(products);
         System.out.println("Nhập ID cần sua: ");
         long idProductEdit = Long.parseLong(scanner.nextLine());
+
         Product productEdit = findProductById(products, idProductEdit);
 
         if (productEdit != null) {
@@ -107,8 +170,43 @@ public class ProductManager {
         Product product = new Product();
         product.setId(System.currentTimeMillis()%1000);
         inputProduct(INPUT_PRODUCT_ADD, product);
-        products.add(product);
-        showProducts(products);
+
+        List<Product> productList = new ArrayList<>();
+        try {
+            FileReader fileReader = new FileReader("D:\\CODEGYM\\CODEGYM\\Module2\\C0323H1\\casetemplate\\data\\product.txt");
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+            String line = null;
+            while ((line = bufferedReader.readLine()) != null) {
+                //5284,Iphone X,Dep lam,23000.0,Mon Jun 05 16:55:35 ICT 2023
+                String[] items = line.split(",");
+                long idProduct = Long.parseLong(items[0]);
+                float price = Float.parseFloat(items[3]);
+                // cho nay can refactor
+                SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+                Date date =  simpleDateFormat.parse(items[4]);
+
+                Product p = new Product(idProduct, items[1], items[2], price, date);
+                productList.add(p);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        productList.add(product);
+
+
+        try {
+            FileWriter fileWriter = new FileWriter("D:\\CODEGYM\\CODEGYM\\Module2\\C0323H1\\casetemplate\\data\\product.txt");
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+            for (Product p : productList) {
+                bufferedWriter.write(p.toString());
+            }
+            bufferedWriter.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
+        showProducts(productList);
     }
 
     private Product findProductById(List<Product> products, long idProductEdit) {
