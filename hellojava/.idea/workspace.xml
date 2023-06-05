@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1f00377-33af-4d6b-ba6c-38e6fce700e1" name="Changes" comment="" />
+    <list default="true" id="b1f00377-33af-4d6b-ba6c-38e6fce700e1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../casetemplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../casetemplate/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,18 +34,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.45911214&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/CODEGYM/CODEGYM/Module2/C0223G1/HelloJava",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.45911214"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.codegym.oop.staticoop" />
@@ -54,13 +57,26 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyStack">
+  <component name="RunManager" selected="Application.FileMain">
     <configuration name="CollectionBuoi1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codegym.collection.basic.CollectionBuoi1" />
       <module name="hellojava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.codegym.collection.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.file_io.FileMain" />
+      <module name="hellojava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.file_io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,19 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManagerOfficer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.oop_ex1.ManagerOfficer" />
-      <module name="hellojava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codegym.oop_ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codegym.stack_queue.MyStack" />
       <module name="hellojava" />
@@ -107,23 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleCalculatorTest.testAdd0And0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TryCatchMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.trycatch.TryCatchMain" />
       <module name="hellojava" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SimpleCalculatorTest" />
-      <option name="METHOD_NAME" value="testAdd0And0" />
-      <option name="TEST_OBJECT" value="method" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.trycatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileMain" />
+        <item itemvalue="Application.TryCatchMain" />
         <item itemvalue="Application.MyStack" />
         <item itemvalue="Application.IteratorMain" />
         <item itemvalue="Application.CollectionBuoi1" />
-        <item itemvalue="Application.ManagerOfficer" />
-        <item itemvalue="JUnit.SimpleCalculatorTest.testAdd0And0" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +161,8 @@
       <workItem from="1685410757291" duration="4879000" />
       <workItem from="1685495433496" duration="6442000" />
       <workItem from="1685523588971" duration="120000" />
+      <workItem from="1685602928828" duration="6213000" />
+      <workItem from="1685929842574" duration="4026000" />
     </task>
     <servers />
   </component>

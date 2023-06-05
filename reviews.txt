@@ -1,0 +1,8 @@
+05/06/23
+Kiểm tra CRUD Customer
+Đạt: X
+Hưng: V
+Nhật: V
+Nhân: X
+Bảo: X
+Minh: V
