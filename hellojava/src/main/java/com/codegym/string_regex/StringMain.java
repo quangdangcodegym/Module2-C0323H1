@@ -2,6 +2,11 @@ package com.codegym.string_regex;
 
 public class StringMain {
     public static void main(String[] args) {
+        String b = "Dang Van Quang";
+        String b5 = "Vo    Duy      Hung";
+        String [] items = b5.split(" +");
+
+
         String a1 = "Quang Dang";
         String a2 = "Thien Nhan";
         int num = a1.compareTo(a2);

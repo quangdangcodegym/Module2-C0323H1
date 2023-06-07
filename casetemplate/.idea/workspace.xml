@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2896dde4-2ee1-49ce-8a25-487d0a43965a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../hellojava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hellojava/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hellojava/src/main/java/com/codegym/string_regex/StringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hellojava/src/main/java/com/codegym/string_regex/StringMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -33,15 +35,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/CODEGYM/CODEGYM/Module2/C0323H1/casetemplate"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CODEGYM/CODEGYM/Module2/C0323H1/casetemplate&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ProductManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codegym.ProductManager" />
@@ -73,6 +75,7 @@
       <workItem from="1685523724315" duration="4977000" />
       <workItem from="1685601979068" duration="891000" />
       <workItem from="1685958869695" duration="2329000" />
+      <workItem from="1686103131618" duration="3975000" />
     </task>
     <servers />
   </component>
