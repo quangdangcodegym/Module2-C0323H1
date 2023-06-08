@@ -1,10 +1,14 @@
-package com.codegym;
+package com.codegym.model;
 
 public class Customer {
     private long id;
     private String name;
     private String address;
     private String telephone;
+
+
+    private ECustomerType eCustomerType;
+
     public Customer() {
     }
     public Customer(long id, String name, String address, String telephone) {
@@ -36,5 +40,13 @@ public class Customer {
     }
     public void setTelephone(String telephone) {
         this.telephone = telephone;
+    }
+
+    public ECustomerType geteCustomerType() {
+        return eCustomerType;
+    }
+
+    public void seteCustomerType(ECustomerType eCustomerType) {
+        this.eCustomerType = eCustomerType;
     }
 }

@@ -1,4 +1,9 @@
-package com.codegym;
+package com.codegym.utils;
+
+import com.codegym.config.Config;
+import com.codegym.model.Customer;
+import com.codegym.model.ECustomerType;
+import com.codegym.model.Product;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -25,8 +30,10 @@ public class FileUtils {
                         String fullName = items[1];
                         String address = items[2];
                         String phone = items[3];
+                        ECustomerType eCustomerType = ECustomerType.find(items[4]);
                         //id, String name, String address, String telephone
                         Customer customer = new Customer(idCustomer, fullName, address, phone);
+                        customer.seteCustomerType(eCustomerType);
                         datas.add((T) customer);
                         break;
                     case Config.TYPE_PRODUCT:

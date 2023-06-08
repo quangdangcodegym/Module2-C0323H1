@@ -1,24 +1,21 @@
-package com.codegym;
+package com.codegym.view;
 
-import com.codegym.service.ProductService;
+import com.codegym.model.Product;
+import com.codegym.service.IProductService;
+import com.codegym.service.ProductServiceServer;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
-public class ProductManager {
+public class ProductView {
     private static final int INPUT_PRODUCT_ADD = 1;
     private static final int INPUT_PRODUCT_EDIT = 2;
     private Scanner scanner = new Scanner(System.in);
 
-    private ProductService productService ;
-    public ProductManager() {
+    private IProductService iProductService;
+    public ProductView() {
         //id, String name, String description, String price, Date createAt
         /**
         try {
@@ -33,7 +30,7 @@ public class ProductManager {
         }
          **/
 
-        productService = new ProductService();
+        iProductService = new ProductServiceServer();
         // // cho nay can refactor: ham doc file
 
     }
@@ -53,7 +50,7 @@ public class ProductManager {
             int actionMenu = Integer.parseInt(scanner.nextLine());
             switch (actionMenu) {
                 case 1:
-                    showProducts(productService.getAllProducts());
+                    showProducts(iProductService.getAllProducts());
                     break;
                 case 2:
                     addProductView();
@@ -88,35 +85,35 @@ public class ProductManager {
         // // cho nay can refactor: ham doc file
 
 
-        showProducts(productService.getAllProducts());
+        showProducts(iProductService.getAllProducts());
         System.out.println("Nhập ID cần xóa: ");
         long idProductDelete = Long.parseLong(scanner.nextLine());
 
 
-        Product productDelete = productService.findProductById(idProductDelete);
+        Product productDelete = iProductService.findProductById(idProductDelete);
 
         if (productDelete == null) {
             System.out.println("Sản phẩm không tồn tại:");
         }else{
-            productService.deleteProductById(idProductDelete);
-            showProducts(productService.getAllProducts());
+            iProductService.deleteProductById(idProductDelete);
+            showProducts(iProductService.getAllProducts());
         }
     }
 
     private void editProductView() {
-        showProducts(productService.getAllProducts());
+        showProducts(iProductService.getAllProducts());
         System.out.println("Nhập ID cần sua: ");
         long idProductEdit = Long.parseLong(scanner.nextLine());
 
-        Product productEdit = productService.findProductById(idProductEdit);
+        Product productEdit = iProductService.findProductById(idProductEdit);
 
         if (productEdit != null) {
             inputProduct(INPUT_PRODUCT_EDIT, productEdit);
         }else{
             System.out.println("Sản pham khong ton tai!!");
         }
-        productService.updateProductById(idProductEdit, productEdit);
-        showProducts(productService.getAllProducts());
+        iProductService.updateProductById(idProductEdit, productEdit);
+        showProducts(iProductService.getAllProducts());
     }
 
     private void addProductView() {
@@ -124,10 +121,10 @@ public class ProductManager {
         product.setId(System.currentTimeMillis()%1000);
         inputProduct(INPUT_PRODUCT_ADD, product);
 
-        productService.addProduct(product);
+        iProductService.addProduct(product);
 
 
-        showProducts(productService.getAllProducts());
+        showProducts(iProductService.getAllProducts());
     }
 
 
@@ -159,7 +156,7 @@ public class ProductManager {
     }
 
     public static void main(String[] args) {
-        ProductManager productManager = new ProductManager();
+        ProductView productManager = new ProductView();
         productManager.launcher();
     }
 }

@@ -1,4 +1,4 @@
-package com.codegym;
+package com.codegym.config;
 
 public class Config {
     public static final String TYPE_CUSTOMER ="CUSTOMER";

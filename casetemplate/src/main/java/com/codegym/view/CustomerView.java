@@ -1,20 +1,23 @@
-package com.codegym;
+package com.codegym.view;
 
-import java.io.*;
-import java.text.SimpleDateFormat;
+import com.codegym.config.Config;
+import com.codegym.model.ECustomerType;
+import com.codegym.utils.FileUtils;
+import com.codegym.model.Customer;
+import com.codegym.utils.ValidateUtils;
+
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
-public class CustomerManager {
+public class CustomerView {
     private static final int INPUT_CUSTOMER_ADD = 1;
     private static final int INPUT_CUSTOMER_EDIT = 2;
     private Scanner scanner = new Scanner(System.in);
     private List<Customer> customers;
     private String path = "./data/customer.txt";
 
-    public CustomerManager() {
+    public CustomerView() {
         customers = new ArrayList<>();
         /**
         customers.add(new Customer(1, "Anh Nhật", "28 Nguyễn Huệ", "234546"));
@@ -129,31 +132,89 @@ public class CustomerManager {
         return null;
     }
 
-    private void inputCustomer(int ACTION, Customer customers) {
+    public void inputNameCustomer(String strACTION,int ACTION, Customer customer){
+        if(ACTION == INPUT_CUSTOMER_ADD){
+            do {
+                System.out.printf("Nhập tên %s của khách hàng \n", strACTION);
+                String name = scanner.nextLine();
+                if (!ValidateUtils.isValidCustomerName(name)) {
+                    System.out.println("Tên không hợp lệ. Tên phải bắt đầu là kí tự và từ 8-20 kí tự, không chứa số");
+                }else{
+                    customer.setName(name);
+                    break;
+                }
+            } while (true);
+        }else {
+            do {
+                System.out.printf("Nhập tên %s của khách hàng Enter để bỏ qua\n", strACTION);
+                String name = scanner.nextLine();
+                if (!ValidateUtils.isValidCustomerName(name)) {
+                    if (name.equals("")) {
+                        break;
+                    }
+                    System.out.println("Tên không hợp lệ. Tên phải bắt đầu là kí tự và từ 8-20 kí tự, không chứa số");
+                }else {
+                    customer.setName(name);
+                    break;
+                }
+            } while (true);
+        }
+
+
+    }
+
+    public void inputAddressCutomer(String strACTION,int ACTION, Customer customer) {
+        do{
+            System.out.printf("Nhập địa chỉ %s của khách hàng: Enter để bỏ qua \n", strACTION);
+            String address = scanner.nextLine();
+            if (!ValidateUtils.isValidCustomerAddress(address)) {
+                if (address.equals("")) {
+                    break;
+                }
+                System.out.println("Địa chỉ không hợp lệ. Phải từ 15-50 kí tư");
+            }else {
+                customer.setAddress(address);
+                break;
+            }
+        }while (true);
+    }
+    private void inputCustomer(int ACTION, Customer customer) {
         String strACTION = ACTION == INPUT_CUSTOMER_ADD ? "" : "mới";
-        System.out.printf("Nhập tên %s của khách hàng: \n", strACTION);
-        String name = scanner.nextLine();
-        System.out.printf("Nhập địa chỉ %s của khách hàng: \n", strACTION);
-        String address = scanner.nextLine();
-        System.out.printf("Nhập số điện thoại %s của khách hàng: \n", strACTION);
+
+        inputNameCustomer(strACTION, ACTION, customer);
+        inputAddressCutomer(strACTION, ACTION, customer);
+
+        System.out.printf("Nhập số điện thoại %s của khách hàng (*): \n", strACTION);
         String telephone = scanner.nextLine();
-        customers.setName(name);
-        customers.setAddress(address);
-        customers.setTelephone(telephone);
+
+        System.out.println("Chọn loại khách hàng: ");
+        for (ECustomerType e : ECustomerType.values()) {
+            if(e.equals(customer.geteCustomerType())){
+                continue;
+            }
+            System.out.println("Nhập " + e.getId() + "." + e.getName());
+        }
+        int actionMenuCustomerType = Integer.parseInt(scanner.nextLine());
+        customer.seteCustomerType(ECustomerType.findById(actionMenuCustomerType));
+
+
+
+
+        customer.setTelephone(telephone);
     }
 
     private void showCustomer(List<Customer> customers) {
-        System.out.printf("%-10s | %-20s | %-20s | %-10s\n",
-                "ID", "NAME", "ADDRESS", "TELEPHONE");
+        System.out.printf("%-10s | %-20s | %-20s | %-10s | %-10s\n",
+                "ID", "NAME", "ADDRESS", "TELEPHONE", "TYPE");
         for (int i = 0; i < customers.size(); i++) {
             Customer item = customers.get(i);
-            System.out.printf("%-10s | %-20s | %-20s | %-10s\n",
-                    item.getId(), item.getName(), item.getAddress(), item.getTelephone());
+            System.out.printf("%-10s | %-20s | %-20s | %-10s | %-10s\n",
+                    item.getId(), item.getName(), item.getAddress(), item.getTelephone(), item.geteCustomerType());
         }
     }
 
     public static void main(String[] args) {
-        CustomerManager customerManager = new CustomerManager();
+        CustomerView customerManager = new CustomerView();
         customerManager.launcher();
     }
 }

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1f00377-33af-4d6b-ba6c-38e6fce700e1" name="Changes" comment="" />
+    <list default="true" id="b1f00377-33af-4d6b-ba6c-38e6fce700e1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../casetemplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../casetemplate/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +26,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2PXHfe6RUGCBmfJQs1JflL3TkT5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -38,15 +47,21 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CODEGYM/CODEGYM/Module2/C0323H1/casetemplate&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CODEGYM/CODEGYM/Module2/C0323H1/hellojava&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.45911214&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CODEGYM\CODEGYM\Module2\C0323H1\hellojava" />
+      <recent name="D:\CODEGYM\CODEGYM\Module2\C0323H1\hellojava\src\main\java\com\codegym" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bb" />
       <recent name="com.codegym.oop.staticoop" />
     </key>
   </component>
@@ -55,7 +70,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringMain">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="ExIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codegym.file_io.ExIO" />
       <module name="hellojava" />
@@ -82,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.stack_queue.MyStack" />
+    <configuration name="StringMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.string_regex.StringMain" />
       <module name="hellojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.stack_queue.*" />
+          <option name="PATTERN" value="com.codegym.string_regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.string_regex.StringMain" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.lamda.c10list.Test" />
       <module name="hellojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.string_regex.*" />
+          <option name="PATTERN" value="com.codegym.lamda.c10list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.StringMain" />
         <item itemvalue="Application.ExIO" />
         <item itemvalue="Application.FileMain" />
         <item itemvalue="Application.TryCatchMain" />
-        <item itemvalue="Application.MyStack" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +179,9 @@
       <workItem from="1685955540293" duration="3845000" />
       <workItem from="1686015332124" duration="2275000" />
       <workItem from="1686102409516" duration="713000" />
+      <workItem from="1686107635110" duration="10000" />
+      <workItem from="1686122945479" duration="5278000" />
+      <workItem from="1686174654900" duration="35000" />
     </task>
     <servers />
   </component>

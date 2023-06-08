@@ -1,4 +1,4 @@
-package com.codegym;
+package com.codegym.model;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

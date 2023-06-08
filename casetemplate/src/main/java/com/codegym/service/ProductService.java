@@ -1,13 +1,12 @@
 package com.codegym.service;
 
-import com.codegym.Config;
-import com.codegym.FileUtils;
-import com.codegym.Product;
-import com.codegym.ProductManager;
+import com.codegym.config.Config;
+import com.codegym.utils.FileUtils;
+import com.codegym.model.Product;
 
 import java.util.List;
 
-public class ProductService {
+public class ProductService implements IProductService{
     private final String pathProduct = "./data/product.txt";
     public List<Product> getAllProducts(){
         return FileUtils.readFile(pathProduct, Config.TYPE_PRODUCT);

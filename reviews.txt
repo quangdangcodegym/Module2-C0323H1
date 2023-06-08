@@ -6,3 +6,7 @@ Nhật: V
 Nhân: X
 Bảo: X
 Minh: V
+
+08/06/23
+Dat, Hung, Nhat, Minh: V
+Nhan, Hieu: X
