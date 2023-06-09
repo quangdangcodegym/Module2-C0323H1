@@ -159,8 +159,6 @@ public class CustomerView {
                 }
             } while (true);
         }
-
-
     }
 
     public void inputAddressCutomer(String strACTION,int ACTION, Customer customer) {
