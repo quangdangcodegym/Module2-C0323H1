@@ -137,7 +137,7 @@ public class CustomerView {
             do {
                 System.out.printf("Nhập tên %s của khách hàng \n", strACTION);
                 String name = scanner.nextLine();
-                if (!ValidateUtils.isValidCustomerName(name)) {
+                if (!ValidateUtils.isValidName(name, Config.REGEX_CUSTOMER)) {
                     System.out.println("Tên không hợp lệ. Tên phải bắt đầu là kí tự và từ 8-20 kí tự, không chứa số");
                 }else{
                     customer.setName(name);
@@ -148,7 +148,7 @@ public class CustomerView {
             do {
                 System.out.printf("Nhập tên %s của khách hàng Enter để bỏ qua\n", strACTION);
                 String name = scanner.nextLine();
-                if (!ValidateUtils.isValidCustomerName(name)) {
+                if (!ValidateUtils.isValidName(name, Config.REGEX_CUSTOMER)) {
                     if (name.equals("")) {
                         break;
                     }

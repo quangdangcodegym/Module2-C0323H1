@@ -1,1 +1,0 @@
-com.codegym.model.Customer@135fbaa4com.codegym.model.Customer@45ee12a7com.codegym.model.Customer@330bedb4com.codegym.model.Customer@2503dbd3

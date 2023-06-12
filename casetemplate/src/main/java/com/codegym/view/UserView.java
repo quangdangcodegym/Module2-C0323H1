@@ -1,5 +1,6 @@
 package com.codegym.view;
 
+import com.codegym.config.Config;
 import com.codegym.model.Customer;
 import com.codegym.model.ERole;
 import com.codegym.model.Egender;
@@ -183,7 +184,7 @@ public class UserView {
             do {
                 System.out.printf("Nhập tên %s của user \n", strACTION);
                 String name = scanner.nextLine();
-                if (!ValidateUtils.isValidCustomerName(name)) {
+                if (!ValidateUtils.isValidName(name, Config.REGEX_CUSTOMER)) {
                     System.out.println("Tên không hợp lệ. Tên phải bắt đầu là kí tự và từ 8-20 kí tự, không chứa số");
                 }else{
                     user.setName(name);
@@ -194,7 +195,7 @@ public class UserView {
             do {
                 System.out.printf("Nhập tên %s của user Enter để bỏ qua\n", strACTION);
                 String name = scanner.nextLine();
-                if (!ValidateUtils.isValidCustomerName(name)) {
+                if (!ValidateUtils.isValidName(name, Config.REGEX_CUSTOMER)) {
                     if (name.equals("")) {
                         break;
                     }

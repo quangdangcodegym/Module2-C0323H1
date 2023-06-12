@@ -43,7 +43,7 @@
     &quot;last_opened_file_path&quot;: &quot;D:/CODEGYM/CODEGYM/Module2/C0323H1/casetemplate&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.UserView">
+  <component name="RunManager" selected="Application.OrderView">
     <configuration name="CustomerView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codegym.view.CustomerView" />
       <module name="casetemplate" />
@@ -57,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ECustomerType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.model.ECustomerType" />
+    <configuration name="OrderView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.view.OrderView" />
       <module name="casetemplate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.model.*" />
+          <option name="PATTERN" value="com.codegym.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderView" />
+        <item itemvalue="Application.ProductView" />
         <item itemvalue="Application.UserView" />
         <item itemvalue="Application.TestMain" />
         <item itemvalue="Application.CustomerView" />
-        <item itemvalue="Application.ECustomerType" />
-        <item itemvalue="Application.ProductView" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +133,8 @@
       <workItem from="1686103131618" duration="4473000" />
       <workItem from="1686194328669" duration="7810000" />
       <workItem from="1686264465435" duration="98000" />
-      <workItem from="1686293787965" duration="7088000" />
+      <workItem from="1686293787965" duration="7518000" />
+      <workItem from="1686534945628" duration="11397000" />
     </task>
     <servers />
   </component>
