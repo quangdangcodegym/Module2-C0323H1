@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1f00377-33af-4d6b-ba6c-38e6fce700e1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../casetemplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../casetemplate/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b1f00377-33af-4d6b-ba6c-38e6fce700e1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +46,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CODEGYM/CODEGYM/Module2/C0323H1/hellojava&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CODEGYM/LEARN/PHP/Excersise/c0123-spring-thymeleaf-dashboard&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -182,7 +180,9 @@
       <workItem from="1686107635110" duration="10000" />
       <workItem from="1686122945479" duration="5278000" />
       <workItem from="1686174654900" duration="35000" />
-      <workItem from="1686793338196" duration="5446000" />
+      <workItem from="1686793338196" duration="6027000" />
+      <workItem from="1686839039706" duration="289000" />
+      <workItem from="1686879329123" duration="1202000" />
     </task>
     <servers />
   </component>
